@@ -13,7 +13,7 @@
           <input id="password" type="password" placeholder="Password" required>
           <button>Sing in</button>
           <label for="">New to Chat Box? 
-            <a href="">Create an account</a>
+            <router-link to="/create-user">Create an account</router-link>
           </label>
         </div>
       </div>
@@ -83,10 +83,11 @@
   margin-top: 10px;
   border: none;
   border-radius: 8px;
+  background-color: green;
 }
 
 .box-login-inputs button:hover {
-  transition: 0.3s;
-  background-color: green;
+  transition: 0.7s;
+  background-color: rgb(1, 172, 1);
 }
 </style>

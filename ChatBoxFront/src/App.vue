@@ -1,9 +1,12 @@
-<script setup>
-  import NewLogin from './components/auth/NewLogin.vue'
-</script>
-
+<!-- App.vue -->
 <template>
-  <div>
-    <NewLogin />
+  <div id="app">
+    <router-view></router-view>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'App'
+}
+</script>
