@@ -3,7 +3,7 @@
     <div class="image-div">
       <img 
         src="../../../imgs/login.svg" 
-        alt="woman sitting at the table with a computer" />
+        alt="woman and a computer" />
     </div>
     <div class="login">
       <div class="box-login">
@@ -41,6 +41,7 @@
 .image-div img {
   max-width: 80%; 
   max-height: 80%;
+  margin-right: 300px;
 }
 
 .login {
